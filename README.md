@@ -1,33 +1,16 @@
-# Ben Polston's Personal Website
+# benpolston.com
 
-Welcome to my personal website! This is my corner of the cyberspace where I showcase my projects, share my thoughts, and connect with fellow hackers and internet sorcerers.
+Personal and professional site of Benjamin M. Lee-Polston: resume, projects, and contact info.
 
-## Features
+Plain HTML, CSS, and JavaScript with no build step, served by GitHub Pages at [www.benpolston.com](https://www.benpolston.com).
 
-- **Home**: Introduction, skills overview, latest updates, and contact information
-- **Chat**: Interactive chat room for visitors
-- **Projects**: Showcase of my coding projects with modern tech stack
-- **Responsive Design**: Works perfectly on desktop and mobile
-- **Interactive Elements**: Hover effects, animations, and dynamic content
+- `index.html`: the whole site (experience, projects, skills, contact)
+- `style.css`: styles, including wizard mode
+- `script.js`: rain, wizard mode (↑↑↓↓←→←→BA), sparkles, heading decrypt effect
+- `terminal.js`: the interactive terminal, the CTF, and the dev tools greeting
+- `vault/`: part of the CTF (spoilers)
+- `resume.pdf`: downloadable resume, exported from the Word source (the `.docx` is kept out of the repo)
+- `images/og.png`: link preview card
+- `404.html`: not-found page
 
-## Tech Stack
-
-- **Frontend**: HTML5, CSS3, Bootstrap 5
-- **Icons**: Font Awesome 6
-- **Interactivity**: Vanilla JavaScript
-
-## Key Updates (2026)
-
-- Enhanced skills section with current technologies
-- Added latest updates/news section
-- Improved project showcase with modern frameworks
-- Interactive JavaScript features
-- Better mobile responsiveness
-- Animated UI elements
-
-## Contact
-
-Find me on:
-- [GitHub](https://github.com/benpolston)
-- [LinkedIn](https://www.linkedin.com/in/benjamin-lee-polston-84644816a/)
-- Live Chat on the website
+To update the resume, edit the Word file, export it as `resume.pdf`, and update the matching sections in `index.html`.

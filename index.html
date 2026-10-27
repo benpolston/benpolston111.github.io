@@ -1,198 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-        <title>Ben Polston - Web Sorcerer & Hacker</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Personal website of Ben Polston, a web sorcerer, hacker, and networking ninja. Explore my projects, chat, and more in this retro-inspired cyberspace corner.">
-        <link rel="icon" type="image/x-icon" href="/images/c035a.gif">
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://benpolston111.github.io/">
-        <meta property="og:title" content="Ben Polston - Web Sorcerer & Hacker">
-        <meta property="og:description" content="Personal website of Ben Polston, a web sorcerer, hacker, and networking ninja. Explore my projects, chat, and more in this retro-inspired cyberspace corner.">
-        <meta property="og:image" content="https://benpolston111.github.io/images/WIZARD.gif">
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://benpolston111.github.io/">
-        <meta property="twitter:title" content="Ben Polston - Web Sorcerer & Hacker">
-        <meta property="twitter:description" content="Personal website of Ben Polston, a web sorcerer, hacker, and networking ninja. Explore my projects, chat, and more in this retro-inspired cyberspace corner.">
-        <meta property="twitter:image" content="https://benpolston111.github.io/images/WIZARD.gif">
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Ben Polston",
-          "jobTitle": "Web Sorcerer & Hacker",
-          "url": "https://benpolston111.github.io/",
-          "sameAs": [
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benjamin Lee-Polston | Cybersecurity &amp; IT</title>
+    <meta name="description" content="Benjamin M. Lee-Polston: cybersecurity student and IT professional with 8+ years of experience in endpoint security, identity management, and infrastructure. Security+ certified, based in Charleston, WV.">
+    <link rel="canonical" href="https://www.benpolston.com/">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#0b0d12">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.benpolston.com/">
+    <meta property="og:title" content="Benjamin Lee-Polston | Cybersecurity &amp; IT">
+    <meta property="og:description" content="Cybersecurity student and IT professional with 8+ years of experience in endpoint security, identity management, and infrastructure.">
+    <meta property="og:image" content="https://www.benpolston.com/images/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Benjamin M. Lee-Polston: Cybersecurity, Networking, Identity">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!--
+        You checked the source. Good instincts.
+
+        Flag 1 of 4: flag{view_source_is_a_superpower}
+
+        Submit it in the terminal on the page:  flag <answer>
+    -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Benjamin M. Lee-Polston",
+        "url": "https://www.benpolston.com/",
+        "email": "mailto:ben@benpolston.com",
+        "jobTitle": "IT Analyst",
+        "address": { "@type": "PostalAddress", "addressLocality": "Charleston", "addressRegion": "WV" },
+        "alumniOf": "Western Governors University",
+        "sameAs": [
             "https://github.com/benpolston",
-            "https://twitter.com/Aan0nAar0n",
-            "https://www.instagram.com/have_u_tried_the_power_button/",
             "https://www.linkedin.com/in/benjamin-lee-polston-84644816a"
-          ],
-          "description": "Full-Stack Web Development | Cybersecurity | Network Engineering | Cloud Computing"
-        }
-        </script>
-        <link rel="stylesheet" type="text/css" href="style.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-    
-    <body>
-        <header>
-            <nav class="navbar navbar-expand">
-                <div class="container-fluid justify-content-center">
-                    <ul class="navbar-nav">
-                        <li class="nav-item nav-icon" title="Home">
-                            <a class="nav-link" href="/index.html" ><i class="fa-solid fa-hat-wizard"></i></a>
-                        </li>
-                        <li class="nav-item nav-icon" title="Chat">
-                            <a class="nav-link" href="/chat.html"><i class="fa-solid fa-message"></i></a>
-                        </li>
-                        <li class="nav-item nav-icon" title="Projects">
-                            <a class="nav-link" href="/code.html"><i class="fa-solid fa-code"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-
-            <div class="container-fluid section">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8 rounded glow-card">
-                        <h3>|| WEB SORCERER ||<br>
-                            || HACKER ||<br>
-                            || NETWORKING NINJA ||<br>
-                            || ENERGY DRINK CONNOISSEUR ||<br><br>
-                            Hey there, and welcome to my website! I go by AAn0nAAr0n, among other names, across the cyberspace. This is my attempt at a 'neocites/old web' like website. Not meant for professional purposes. Just my place to have fun, and reclaim a small part of what the internet used to be.</h3>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </div>
-
-            <div class="container section">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-5 rounded glow-card">
-                        <img src="/images/WIZARD.gif">
-                    </div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-2 rounded glow-card">
-                        <h3>======</h3>
-                        <a href="https://github.com/benpolston" class="social-link"><i class="fa-brands fa-github-alt icon-size"></i></a>
-                        <br>
-                        <a href="https://twitter.com/Aan0nAar0n" class="social-link"><i class="fa-brands fa-x-twitter icon-size"></i></a>
-                        <a href="https://www.instagram.com/have_u_tried_the_power_button/" class="social-link"><i class="fa-brands fa-instagram icon-size"></i></a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/benjamin-lee-polston-84644816a" class="social-link"><i class="fa-brands fa-linkedin-in icon-size"></i></a>
-                        <br>
-                        <br>
-                        <h3>======</h3>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </div>
-
-            <div class="container-fluid section">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8 rounded glow-card">
-                        <h3>Skills & Interests</h3>
-                        <p>Full-Stack Web Development | Cybersecurity | Network Engineering | Cloud Computing</p>
-                        <p>Languages: Python, JavaScript |Frameworks: React, Node.js, Django</p>
-                        <p>Tools: Docker, Kubernetes, Azure, Git, Linux | Interests: Ethical Hacking, IoT, Blockchain</p>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </div>
-
-            <div class="container-fluid section">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8 rounded glow-card">
-                        <h3>Latest Updates</h3>
-                        <div class="text-start">
-                            <h5><i class="fa-solid fa-calendar-days"></i> April 2026</h5>
-                            <ul>
-                                <li>Redesigned personal website with modern tech stack</li>
-                                <li>Exploring AI/ML applications in cybersecurity</li>
-                                <li>Working on SSCP ISC2 certification</li>
-                            </ul>
-                            <h5><i class="fa-solid fa-code"></i> Current Focus</h5>
-                            <p>Completing my education and gaining more experience dooing cool stuff!</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </div>
-
-            <div class="container-fluid section">
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8 rounded glow-card">
-                        <h3>Get In Touch</h3>
-                        <p>Interested in collaborating or just want to chat about tech? Reach out!</p>
-                        <div class="row text-center">
-                            <div class="col-md-3">
-                                <a href="mailto:benpolston111@gmail.com" class="text-decoration-none social-link">
-                                    <i class="fa-solid fa-envelope fa-2x mb-2 icon-size"></i><br>
-                                    Email
-                                </a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="https://github.com/benpolston" class="text-decoration-none social-link">
-                                    <i class="fa-brands fa-github fa-2x mb-2 icon-size"></i><br>
-                                    GitHub
-                                </a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="https://www.linkedin.com/in/benjamin-lee-polston-84644816a/" class="text-decoration-none social-link">
-                                    <i class="fa-brands fa-linkedin fa-2x mb-2 icon-size"></i><br>
-                                    LinkedIn
-                                </a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="/chat.html" class="text-decoration-none social-link">
-                                    <i class="fa-solid fa-comments fa-2x mb-2 icon-size"></i><br>
-                                    Live Chat
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
-            </div>
-
-        </main>
-
-        <footer>
-            <div id="spacer"><br></div>
-            <div class="container-fluid text-center no-glow-animation glow-card">
-                <p>&copy; 2023-2026 Ben Polston. All rights reserved. | Powered by wizardry and caffeine.</p>
-                <p id="visitor-count">Loading visitor stats...</p>
-            </div>
-        </footer>
-    </body>
-    <script>
-        let visitors = Math.floor(Math.random() * 1000) + 500;
-        document.getElementById('visitor-count').textContent = `Visitors: ${visitors} | Last updated: ${new Date().toLocaleDateString()}`;
-
-        // Add some interactive effects
-        document.querySelectorAll('.glow-card').forEach(el => {
-            if (!el.classList.contains('no-glow-animation')) {
-                el.addEventListener('mouseenter', () => {
-                    el.style.transform = 'scale(1.02)';
-                });
-                el.addEventListener('mouseleave', () => {
-                    el.style.transform = 'scale(1)';
-                });
-            }
-        });
+        ]
+    }
     </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css?v=6">
+    <script>try { const c = document.documentElement.classList; if (localStorage.getItem("wizard-mode") === "on") c.add("wizard-mode"); if ((JSON.parse(localStorage.getItem("ctf-found")) || []).length >= 4) c.add("archmage"); } catch (e) {}</script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="#top">benpolston<span>.com</span></a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="#experience">experience</a>
+                <a href="#projects">projects</a>
+                <a href="#skills" class="hide-sm">skills</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <div class="wrap">
+
+            <div class="term">
+            <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><span data-wizard="ben@benpolston: ~/spellbook">ben@benpolston: ~</span></div>
+            <div class="hero">
+                <p class="prompt" data-wizard="cast --reveal-identity">whoami</p>
+                <h1 class="glow">Benjamin M. Lee-Polston<span class="cursor" aria-hidden="true"></span></h1>
+                <p class="role">Cybersecurity · Networking · Identity</p>
+                <p class="lede">
+                    Cybersecurity student (B.S., WGU, expected 2027) with 8+ years of IT experience in
+                    endpoint security, identity management, and infrastructure. Security+ certified and
+                    looking for a cybersecurity or networking role.
+                </p>
+                <div class="actions">
+                    <a class="btn btn-primary" href="/resume.pdf">Download resume</a>
+                    <a class="btn" href="mailto:ben@benpolston.com">Email me</a>
+                    <a class="btn" href="https://www.linkedin.com/in/benjamin-lee-polston-84644816a">LinkedIn</a>
+                    <a class="btn" href="https://github.com/benpolston">GitHub</a>
+                </div>
+                <p class="status">Open to work · Charleston, WV</p>
+            </div>
+            <div class="term-io">
+                <div class="term-out" id="term-out" aria-live="polite"></div>
+                <form class="term-line" id="term-form" autocomplete="off">
+                    <label class="term-ps1" for="term-input">guest@benpolston:~$</label>
+                    <input id="term-input" type="text" spellcheck="false" autocapitalize="off" enterkeyhint="go" placeholder="type 'help' and press Enter">
+                </form>
+            </div>
+            </div>
+
+            <section id="experience" aria-labelledby="experience-title">
+                <h2 class="section-title" id="experience-title">experience</h2>
+                <ol class="timeline">
+                    <li>
+                        <div class="when">May 2019 – Present</div>
+                        <div>
+                            <h3>Owner / Operator</h3>
+                            <p class="org">Almost Heaven Cellphone Repair <span>· Charleston, WV</span></p>
+                            <ul>
+                                <li>Own and operate a mobile device repair business, handling diagnostics, repairs, customer service, and parts sourcing.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="when">Mar 2024 – Aug 2025</div>
+                        <div>
+                            <h3>IT Analyst</h3>
+                            <p class="org">NetSolutions <span>· South Charleston, WV</span></p>
+                            <ul>
+                                <li>Administered Sophos EDR, Firewall XG, and MDM environments for roughly 150 SMB clients (500+ endpoints), improving visibility and threat response.</li>
+                                <li>Led client migrations from on-prem Active Directory to Microsoft Entra ID, implementing cloud identity and MFA.</li>
+                                <li>Supported endpoint security investigations: reviewed alerts, isolated devices, aided remediation.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="when">Aug 2021 – Nov 2023</div>
+                        <div>
+                            <h3>Store Manager</h3>
+                            <p class="org">Gmet Communications <span>· Shelbyville, IN</span></p>
+                            <ul>
+                                <li>Led a team of up to 10 across 2 Cricket Wireless retail stores, managing sales, customer service, and daily operations.</li>
+                                <li>Provided mobile device support in store and by phone.</li>
+                                <li>Hired, trained, and supervised staff.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="when">Apr 2017 – Jul 2021</div>
+                        <div>
+                            <h3>Computer Technician</h3>
+                            <p class="org">Mach1PC <span>· Shelbyville, IN</span></p>
+                            <ul>
+                                <li>Managed a ticketing system for 8,000+ registered clients with a 3-day or better resolution time.</li>
+                                <li>Troubleshot networks, endpoints, and peripherals on site for SMB clients.</li>
+                                <li>Handled after-hours emergencies, prioritizing uptime and data integrity.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+
+                <h3 class="subhead">Education</h3>
+                <ol class="timeline">
+                    <li>
+                        <div class="when">Expected 2027</div>
+                        <div>
+                            <h3>B.S. Cybersecurity and Information Assurance</h3>
+                            <p class="org">Western Governors University <span>· Salt Lake City, UT</span></p>
+                            <ul>
+                                <li>Excellence Award for Emerging Technologies in Cybersecurity</li>
+                                <li>Member, WGU Cybersecurity Club</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+            <section id="projects" aria-labelledby="projects-title">
+                <h2 class="section-title" id="projects-title">projects</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Vox Reader</h3>
+                        <p>An EPUB reader in the browser built around natural-sounding read-aloud. Runs the Kokoro TTS model locally via WebGPU, with optional Google Drive sync using least-privilege <code>drive.file</code> OAuth scope.</p>
+                        <ul class="tags">
+                            <li>JavaScript</li>
+                            <li>WebGPU</li>
+                            <li>OAuth 2.0</li>
+                            <li>IndexedDB</li>
+                        </ul>
+                        <div class="card-links">
+                            <a href="https://vox.benpolston.com/">live ↗</a>
+                            <a href="https://github.com/benpolston/vox-reader">source ↗</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3>benpolston.com</h3>
+                        <p>This site. Hand-written HTML and CSS with no framework or build step, hosted on GitHub Pages with a custom domain.</p>
+                        <ul class="tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>GitHub Pages</li>
+                        </ul>
+                        <div class="card-links">
+                            <a href="https://github.com/benpolston/benpolston111.github.io">source ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="skills" aria-labelledby="skills-title">
+                <h2 class="section-title" id="skills-title">skills</h2>
+                <div class="skills">
+                    <div>
+                        <h3 class="subhead">Security &amp; Identity</h3>
+                        <ul class="tags">
+                            <li>Sophos EDR</li>
+                            <li>Microsoft Defender</li>
+                            <li>Entra ID</li>
+                            <li>MFA (Duo, Entra)</li>
+                            <li>Mimecast</li>
+                            <li>Access Control</li>
+                            <li>Wireshark</li>
+                            <li>Nmap</li>
+                            <li>Burp Suite</li>
+                            <li>Caido</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="subhead">Networking &amp; Systems</h3>
+                        <ul class="tags">
+                            <li>Sophos Firewall XG</li>
+                            <li>SonicWall</li>
+                            <li>UniFi</li>
+                            <li>TCP/IP</li>
+                            <li>DNS / DHCP</li>
+                            <li>VPN</li>
+                            <li>Active Directory</li>
+                            <li>M365 / Google Workspace</li>
+                            <li>Windows · macOS · Linux</li>
+                            <li>Hyper-V</li>
+                            <li>VirtualBox</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="subhead">IT Operations</h3>
+                        <ul class="tags">
+                            <li>ConnectWise</li>
+                            <li>Continuum</li>
+                            <li>Syncro</li>
+                            <li>Lansweeper</li>
+                            <li>MDM</li>
+                            <li>Ticketing</li>
+                            <li>PowerShell</li>
+                            <li>Bash</li>
+                            <li>Python</li>
+                            <li>Incident Triage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 class="subhead">Certifications</h3>
+                <ul class="certs">
+                    <li>CompTIA Security+</li>
+                    <li>CompTIA Network+</li>
+                    <li>CompTIA A+</li>
+                    <li>CompTIA Project+</li>
+                    <li>LPI Linux Essentials</li>
+                    <li>ITIL v4 Foundation</li>
+                    <li class="pending">ISC2 SSCP (in progress)</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="contact" aria-labelledby="contact-title">
+                <h2 class="section-title" id="contact-title">contact</h2>
+                <p>I'm looking for cybersecurity and networking roles. Email is the fastest way to reach me.</p>
+                <ul class="contact-list">
+                    <li><span class="key">email</span><a href="mailto:ben@benpolston.com">ben@benpolston.com</a></li>
+                    <li><span class="key">linkedin</span><a href="https://www.linkedin.com/in/benjamin-lee-polston-84644816a">in/benjamin-lee-polston-84644816a</a></li>
+                    <li><span class="key">github</span><a href="https://github.com/benpolston">github.com/benpolston</a></li>
+                    <li><span class="key">resume</span><a href="/resume.pdf">resume.pdf</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <img class="wizard" src="/images/WIZARD.gif" alt="Pixel-art wizard holding a torch and a purple orb" width="96" height="96" title="click me">
+            <div>
+                <ul class="badges" aria-label="Site badges">
+                    <li>Hand-coded HTML</li>
+                    <li>Security+ certified</li>
+                    <li>Best viewed in any browser</li>
+                    <li class="ctf-badge" hidden>CTF cleared ★ Archmage</li>
+                </ul>
+                <p>© 2026 Benjamin M. Lee-Polston · Powered by wizardry and caffeine.</p>
+                <p class="hint">psst: ↑ ↑ ↓ ↓ ← → ← → B A</p>
+            </div>
+        </div>
+    </footer>
+
+    <canvas id="rain" aria-hidden="true"></canvas>
+    <script src="/script.js?v=6"></script>
+    <script src="/terminal.js?v=6"></script>
+</body>
+
 </html>
