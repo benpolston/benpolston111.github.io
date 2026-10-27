@@ -11,6 +11,3 @@ Plain HTML, CSS, and JavaScript with no build step, served by GitHub Pages at [w
 - `vault/`: part of the CTF (spoilers)
 - `resume.pdf`: downloadable resume, exported from the Word source (the `.docx` is kept out of the repo)
 - `images/og.png`: link preview card
-- `404.html`: not-found page
-
-To update the resume, edit the Word file, export it as `resume.pdf`, and update the matching sections in `index.html`.
