@@ -220,7 +220,7 @@ const commands = {
         desc: "how to reach me",
         run() {
             print({ text: "email      ", cls: "gold" }, { text: "ben@benpolston.com", href: "mailto:ben@benpolston.com" });
-            print({ text: "linkedin   ", cls: "gold" }, { text: "in/benjamin-lee-polston-84644816a", href: "https://www.linkedin.com/in/benjamin-lee-polston-84644816a" });
+            print({ text: "linkedin   ", cls: "gold" }, { text: "in/benjamin-lee-polston", href: "https://www.linkedin.com/in/benjamin-lee-polston" });
             print({ text: "github     ", cls: "gold" }, { text: "github.com/benpolston", href: "https://github.com/benpolston" });
         }
     },
